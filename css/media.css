@@ -1,0 +1,94 @@
+/***====================  MEDIA  ====================***/
+@media only screen and (max-width:1200px) {
+    
+}
+@media only screen and (max-width:992px) {
+    header {
+        padding-bottom: 235px;    
+    }
+    header p {
+        font-size: 40px;
+        padding: 3.5% 0 0 2.5%;
+    }
+    .h1 {
+        font-size: 35px;
+        padding: 13% 1% 2%;
+    }
+    .button {
+        font-size: 25px;
+        padding: 25px 40px;
+    }
+    .discount {
+        padding: 40px 0;
+    }
+    .discount p:first-child {
+        font-size: 30px;
+    }
+    .discount p:nth-child(2) {
+        font-size: 40px;
+    }
+    .off {
+        font-size: 35px;
+        padding: 35px 38px;
+    }
+}
+@media only screen and (max-width:768px) {
+    header p[class] {
+        display: none;
+    }
+    header ul {
+        text-align: center;
+        padding: 0;
+    }
+    header a {
+        font-size: 16px;
+    }
+    header li {
+        margin-right: 15px;
+    }
+    .menu-list>.fa {
+        font-size: 23px;
+    }
+    .h1 {
+        font-size: 30px;
+    }
+    .discount {
+        padding: 30px 0;
+    }
+    .discount p:first-child {
+        font-size: 20px;
+    }
+    .discount p:nth-child(2) {
+        font-size: 25px;
+    }
+    .off {
+        font-size: 25px;
+        padding: 25px 28px;
+    }
+}
+@media only screen and (max-width:480px) {
+    header {
+        padding-bottom: 100px;
+    }
+    nav.pull-right {
+        float: none !important;
+    }
+    header li:nth-of-type(5) {
+        margin-right: 0;
+    }
+    .menu-list, .discount {
+        display: none;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 20px;
+        padding: 20px 35px;
+    }
+}
+@media only screen and (max-width:320px) {
+    header li:nth-of-type(3) {
+        margin-right: 0;
+    }
+}
