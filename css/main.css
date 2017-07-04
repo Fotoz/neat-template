@@ -52,6 +52,11 @@ a:focus {
 .h1, .h2, .h3, .h4, .h5, .h6 {
     text-transform: uppercase;
     line-height: 1.4;
+    text-align: center;
+}
+.h2  {
+    font: 300 36px 'Montserrat', sans-serif;
+    color: #999;
 }
 /***====================  HEADER  ====================***/
 header {
@@ -106,7 +111,6 @@ header nav {
 }
 .h1 {
     font: 300 48px 'Montserrat', sans-serif;
-    text-align: center;
     padding: 13% 10% 2%;
     line-height: 2;
 }
@@ -133,7 +137,7 @@ header nav {
     position: absolute;
     width: 100%;
     margin-top: 135px;
-    box-shadow: 0 12px 20px rgba(000, 000, 000, .2);;
+    box-shadow: 0 12px 20px rgba(000, 000, 000, .2);
 }
 .discount p:first-child {
     font: 300 36px 'Montserrat', sans-serif;
@@ -158,10 +162,31 @@ header nav {
 /***====================  FEATURES  ====================***/
 .s-features {
     background: #f5f5f5;
-    padding: 200px;
+    padding-bottom: 12%;
 }
-
-
+.s-features .h2 {
+    padding: 17% 0 8%;
+    margin: 0;
+}
+.top-products {
+    padding: 20px;
+}
+.top-products img {
+    box-shadow: 0 10px 15px rgba(000, 000, 000, .2);
+}
+.products-carousel .owl-dot {
+    transform: scale(1.3);
+    margin: 3% 4px 0;
+}
+.products-carousel.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #3498db;
+    transform: scale(1.2);
+    transition: all .25s ease-in;
+}
+.products-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: #3498db;
+    transition: all .5s ease-in;
+}
 /***====================  SECTION  ====================***/
 
 

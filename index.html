@@ -7,9 +7,11 @@
         <link rel="icon" href="images/favicon.png">
         <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
         <link rel="stylesheet" href="libs/font-awesome.min.css">
+        <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/media.css">
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
+        <script src="libs/prefixfree.min.js"></script>
     </head>
     <body>
         <header>
@@ -47,10 +49,24 @@
         </header>
         
         <section class="s-features">
-            
+            <div class="container">
+                <h2 class="h2">Top products</h2>
+                <div class="owl-carousel products-carousel owl-theme">
+                    <div class="top-products"><img src="images/top-products/product-1.jpg" alt="top-products"></div>
+                    <div class="top-products"><img src="images/top-products/product-2.jpg" alt="top-products"></div>
+                    <div class="top-products"><img src="images/top-products/product-3.jpg" alt="top-products"></div>
+                    <div class="top-products"><img src="images/top-products/product-1.jpg" alt="top-products"></div>
+                    <div class="top-products"><img src="images/top-products/product-2.jpg" alt="top-products"></div>
+                    <div class="top-products"><img src="images/top-products/product-3.jpg" alt="top-products"></div>
+                </div>
+            </div>
         </section>
         
     <!-- jquery -->    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="libs/jquery-3.2.1.min.js"></script>
+    <!-- owl carousel -->
+        <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <!-- common js -->
+        <script src="js/common.js"></script>
     </body>
 </html>
