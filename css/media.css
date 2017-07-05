@@ -65,6 +65,17 @@
         font-size: 25px;
         padding: 25px 28px;
     }
+    .service {
+        margin: 0 15%;
+        padding: 55px 35px;
+    }
+    #toTop {
+        bottom:5px;
+        right:15px;
+    }
+    #toTop .fa {
+    font-size: 35px;
+    }
 }
 @media only screen and (max-width:480px) {
     header {
@@ -92,6 +103,19 @@
     .top-products {
         padding: 15px 50px;
     }
+    .service {
+        margin: 0 3%;
+        padding: 40px 20px;
+    }
+    .service .fa {
+        font-size: 60px;
+    }
+    .h3 {
+        font-size: 17px;
+    }
+    #s-services p {
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width:320px) {
     header li:nth-of-type(3) {
@@ -99,5 +123,15 @@
     }
     .top-products {
         padding: 15px 20px;
+    }
+    .service {
+        margin: 0 0.5%;
+    }
+    #toTop {
+        bottom:0;
+        right:10px;
+    }
+    #toTop .fa {
+        font-size: 30px;
     }
 }
