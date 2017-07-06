@@ -1,6 +1,12 @@
 /***====================  MEDIA  ====================***/
 @media only screen and (max-width:1200px) {
-    
+    .hover-block a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .customer {
+        padding: 0 70px;
+    }
 }
 @media only screen and (max-width:992px) {
     header {
@@ -30,6 +36,9 @@
     .off {
         font-size: 35px;
         padding: 35px 38px;
+    }
+    .customer {
+        padding: 0 30px;
     }
 }
 @media only screen and (max-width:768px) {
@@ -69,12 +78,24 @@
         margin: 0 15%;
         padding: 55px 35px;
     }
+    .products {
+        width: 55%;
+    }
+    .customer {
+        padding: 0 20px;
+    }
+    .customer p:nth-child(2) {
+        font-size: 25px;
+    }
+    .customer p:last-child {
+        font-size: 17px;
+    }
+    
+    
+    
     #toTop {
         bottom:5px;
         right:15px;
-    }
-    #toTop .fa {
-    font-size: 35px;
     }
 }
 @media only screen and (max-width:480px) {
@@ -113,8 +134,27 @@
     .h3 {
         font-size: 17px;
     }
+    .products {
+        width: 70%;
+    }
+    .hover-block a {
+        padding: 5px 5px;
+        font-size: 15px;
+    }
     #s-services p {
         font-size: 14px;
+    }
+    .products-link {
+        font-size: 20px;
+    }
+    .customer {
+        padding: 0;
+    }
+    .customer p:nth-child(2) {
+        font-size: 23px;
+    }
+    .customer p:last-child {
+        font-size: 15px;
     }
 }
 @media only screen and (max-width:320px) {
@@ -127,11 +167,17 @@
     .service {
         margin: 0 0.5%;
     }
+    .products {
+        width: 85%;
+    }
+    
+    
+    
     #toTop {
         bottom:0;
         right:10px;
     }
     #toTop .fa {
-        font-size: 30px;
+        font-size: 45px;
     }
 }

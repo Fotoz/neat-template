@@ -17,6 +17,13 @@ $(function() {
         }
     })
     
+    $('.customer-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        smartSpeed: 700,
+        autoHeight: true
+    });
+    
     $(function() {
         $(window).scroll(function() {
         if($(this).scrollTop() != 0) {
