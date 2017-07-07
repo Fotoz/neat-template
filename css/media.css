@@ -10,7 +10,7 @@
 }
 @media only screen and (max-width:992px) {
     header {
-        padding-bottom: 235px;    
+        padding-bottom: 235px;
     }
     header p {
         font-size: 40px;
@@ -39,6 +39,15 @@
     }
     .customer {
         padding: 0 30px;
+    }
+    .form {
+        width: 500px;
+    }
+    input[placeholder], textarea {
+        padding: 25px;
+    }
+    footer a {
+        font-size: 22px;
     }
 }
 @media only screen and (max-width:768px) {
@@ -79,7 +88,7 @@
         padding: 55px 35px;
     }
     .products {
-        width: 55%;
+        width: 50%;
     }
     .customer {
         padding: 0 20px;
@@ -90,9 +99,20 @@
     .customer p:last-child {
         font-size: 17px;
     }
-    
-    
-    
+    .form {
+        width: 450px;
+    }
+    input[placeholder], textarea {
+        padding: 20px;
+        font-size: 16px;
+    }
+    footer a {
+        font-size: 20px;
+    }
+    footer ul[class^="pull"] {
+        float: none !important;
+        text-align: center;
+    }
     #toTop {
         bottom:5px;
         right:15px;
@@ -122,7 +142,7 @@
         font-size: 25px;
     }
     .top-products {
-        padding: 15px 50px;
+        padding: 15px 60px;
     }
     .service {
         margin: 0 3%;
@@ -135,7 +155,7 @@
         font-size: 17px;
     }
     .products {
-        width: 70%;
+        width: 65%;
     }
     .hover-block a {
         padding: 5px 5px;
@@ -156,6 +176,20 @@
     .customer p:last-child {
         font-size: 15px;
     }
+    .form {
+        width: 320px;
+    }
+    input[placeholder], textarea {
+        padding: 18px;
+    }
+    input[value] {
+        display: block;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+    footer a {
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width:320px) {
     header li:nth-of-type(3) {
@@ -170,9 +204,12 @@
     .products {
         width: 85%;
     }
-    
-    
-    
+    .form {
+        width: 300px;
+    }
+    input[placeholder], textarea {
+        padding: 17px;
+    }
     #toTop {
         bottom:0;
         right:10px;

@@ -21,7 +21,7 @@ $(function() {
         items: 1,
         loop: true,
         smartSpeed: 700,
-        autoHeight: true
+        autoHeight: true,
     });
     
     $(function() {
