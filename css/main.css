@@ -96,7 +96,7 @@ header nav {
 .menu-list {
     position: relative;
 }
-.menu-list>.fa {
+.menu-list>.fas {
     font-size: 27px;
     position: absolute;
     bottom: 0;
@@ -145,6 +145,7 @@ header nav {
     position: absolute;
     width: 100%;
     margin-top: 135px;
+    margin-left: -10px;
     box-shadow: 0 12px 20px rgba(0,0,0,.2);
 }
 .discount p:first-child {
@@ -201,15 +202,16 @@ header nav {
 }
 .service {
     text-align: center;
-    padding: 70px 40px;
+    padding: 60px 40px;
     transition: all .25s ease-in;
 }
 .service:hover {
     background: #fff;
     box-shadow: 0 12px 20px rgba(0,0,0,.2);
 }
-.service .fa {
-    font-size: 70px;
+.service .far,
+.service .fas {
+    font-size: 60px;
     color: #3498db;
 }
 #s-services .h3, #s-services p {
@@ -258,7 +260,7 @@ header nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 15px 31px;
+    padding: 15px 29px;
     border: 2px solid #fff;
     text-transform: uppercase;
     font-size: 18px;
@@ -370,6 +372,7 @@ input[value] {
     color: #3498db;
     transition: all .25s ease-in;
     margin-left: 83.5%;
+    outline: none;
 }
 input[value]:hover {
     letter-spacing: 2px;
@@ -391,20 +394,20 @@ footer a:hover {
     color: #3498db;
 }
 footer li {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 footer li:last-child {
     margin-right: 0;
 }
 #toTop {
     position:fixed;
-    bottom:15px;
-    right:20px;
+    bottom:100px;
+    right:35px;
     cursor:pointer;
     display:none;
     z-index: 5;
 }
-#toTop .fa {
-    font-size: 50px;
+#toTop .fas {
+    font-size: 30px;
     color: #3498db;
 }
